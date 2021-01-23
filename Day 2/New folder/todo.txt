@@ -1,0 +1,8 @@
+functions
+sequences 
+   1.  lists-  append,insert,expand,remove,reverse,concatenation,sort,repitition, 
+   2.  tuples- 
+   3.  strings-
+   4.  sets-union,intersection,difference,symmteric difference,
+list to set     list to tuple
+   5.  dictionaries

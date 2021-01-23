@@ -1,0 +1,24 @@
+class Car:
+
+    def __init__(self,modelname,topspeed):
+        self.modelname = modelname
+        self.topspeed = topspeed
+
+    def forward(self):
+        print("All wheels go forward")
+
+    def backward(self):
+        print("All wheels go backward")
+
+
+bmw=Car("M30",200)    #instanceofclass(object)=classname(parameters)
+
+bmw.forward()        #objectname.<name>() -  method
+
+print(bmw.modelname)   #objectname. <name>   -attribute         
+print(bmw.topspeed)
+
+toyota=Car("Supra",220)   #instanceofclass(object2)=classname(parameters)
+toyota.backward()
+print(toyota.modelname)
+print(toyota.topspeed)
